@@ -85,12 +85,22 @@ align-items:center;
 margin:1em .5em 1em 1em;
 }
 .main{
+    height: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top:8em;
 }
-
+.main img{
+    margin-bottom: 2em;
+}
+.main input{
+    border-radius: 15px;
+    width: 40em;
+}
+footer{
+    background-color: #f2f2f2;
+}
 .footer li{
     display: inline-block;
     }
