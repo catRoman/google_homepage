@@ -1,0 +1,96 @@
+body{
+    font-size:small;
+    font-family: 'liberation sans', sans-serif;
+    margin:0;
+    padding:0;
+}
+.nav-bar ul,footer ul{
+    list-style-type: none;
+    margin: 0 1em 0 1em;
+    padding: 0;
+}
+
+.google-account-icon{
+    
+    width: 2.5em;
+    height:2.5em;
+}
+.google-account-icon{
+    display:flex;
+    border-radius: 50%;
+    align-items: center;
+    font-weight: bold;
+    justify-content: center;
+    font-size: 1em;
+    color:white;
+    border-color: #ec407a;
+    background-color:#ec407a;
+}
+.google-account-icon span{
+    
+    transform: scale(1.2, 1.25);
+}
+.google-apps-icon{
+    align-items:center;
+    display:grid;
+    grid-template-columns: 4px 4px 4px;
+    grid-template-rows: 4px 4px 4px;
+    grid-gap: 2px;
+
+}
+
+.icon-section{
+
+    border-color: red;
+    background-color: grey;
+    width: 4px;
+    height: 4px;
+    
+}
+.icon{
+    display:inline-flex;
+    align-items: center;
+    margin-right:1em;
+    cursor: pointer;
+}
+.nav-bar ul{
+    display:flex; 
+    justify-content: space-between;
+
+}
+.nav-bar a:link{
+    text-decoration:none;
+    color: black;
+}
+.nav-bar a:visited{
+    color: black;
+}
+.nav-bar a:hover{
+    text-decoration: underline;
+}
+.nav-bar a:active{
+    color: black;
+}
+.left{
+    display: inline-flex;
+    align-items: center;
+}
+.right {
+
+display: inline-flex;
+align-items:center;
+}
+.left li, .right li{
+
+margin:1em .5em 1em 1em;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:8em;
+}
+
+.footer li{
+    display: inline-block;
+    }
