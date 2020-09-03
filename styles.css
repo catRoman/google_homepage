@@ -1,5 +1,10 @@
 body{
+    display:flex;
+    flex-direction: column;
+    height:100vh
     font-size:small;
+    font-weight: 400;
+    color: #red;
     font-family: 'liberation sans', sans-serif;
     margin:0;
     padding:0;
@@ -38,6 +43,10 @@ body{
     grid-gap: 2px;
 
 }
+.google-apps-icon:hover .icon-section{
+    
+    background-color:black;
+}
 
 .icon-section{
 
@@ -60,16 +69,16 @@ body{
 }
 .nav-bar a:link{
     text-decoration:none;
-    color: black;
+    color: #5F6368;
 }
 .nav-bar a:visited{
-    color: black;
+    color: #5F6368;
 }
 .nav-bar a:hover{
     text-decoration: underline;
 }
 .nav-bar a:active{
-    color: black;
+    color: #5F6368;
 }
 .left{
     display: inline-flex;
@@ -89,18 +98,61 @@ margin:1em .5em 1em 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top:8em;
+    margin-top:10em;
 }
 .main img{
     margin-bottom: 2em;
 }
 .main input{
-    border-radius: 15px;
-    width: 40em;
+    border: 1px solid #dfe1e5;
+    background-color: white;
+    background-image: url(search_icon.svg.png);
+ background-repeat: no-repeat;
+ background-size: 15px;
+ background-position: 15px 14px;
+padding: 5px 5px 5px 50px;
+    border-radius: 25px;
+    width: 460px;
+    height: 44px;
+    line-height: 34px;
+    margin-bottom: 1.5em;
 }
-footer{
+.main input:hover{
+   
+    box-shadow: 2px 2px 10px #dfe1e5;
+}
+.main button[type=submit]{
+    margin: 11px 4px;
+    padding: 0 16px;
+    font-size: 14px;
+    color:#5F6368;
     background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    height: 36px;
+    min-width: 54px;
+}
+.main button[type=submit]:hover{
+    color: black;
+    background-color: #f8f8f8;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #c6c6c6;
+
+}
+.french p, a{
+    display: inline-block;
+    margin-top: 1.5em;
+    letter-spacing: 0.025em;
+}
+
+footer{
+    display:block;
+    background-color: #f2f2f2;
+    align-items:bottom;
 }
 .footer li{
     display: inline-block;
+    
     }
