@@ -159,12 +159,13 @@ Left: 0;
    background-color: #f2f2f2;
    margin:0;
    padding:0;
+Margin: auto;
 }
 .footer{
    
    justify-self:flex-end;
    font-size: 15px;
-   margin: 0;
+   
    overflow: hidden;
    padding-right: 20px;
 }
