@@ -150,7 +150,8 @@ padding: 5px 5px 5px 50px;
     letter-spacing: 0.025em;
 }
 footer{
-    display:block;
+    display:flex;
+Flex-direction: column;
 Position: absolute;
 Bottom:0;
 Left: 0;
@@ -160,10 +161,8 @@ Left: 0;
    padding:0;
 }
 .footer{
-    Display: flex;
-flex-direction: column;
    
-   justify-content:flex-end;
+   justify-self:flex-end;
    font-size: 15px;
    margin: 0;
    overflow: hidden;
