@@ -91,7 +91,7 @@ Html, body{
 display: inline-flex;
 align-items:center;
 }
-.left li, .right li{
+.nav-bar .left li, .nav-bar .right li{
 
 margin:1em .5em 1em 1em;
 align-items: center;
@@ -145,9 +145,18 @@ padding: 5px 5px 5px 50px;
     border: 1px solid #c6c6c6;
 
 }
+.french{
+    margin-bottom:4em;
+    margin-top: 1.5em;
+}
+.french a:link{
+    text-decoration: none;
+} 
+.french a{
+    margin-left: .5em;
+}
 .french p, a{
     display: inline-block;
-    margin-top: 1.5em;
     letter-spacing: 0.025em;
 }
 footer{
@@ -181,44 +190,69 @@ footer a:active{
     
     height: 40px;
 display: flex;
-    margin-left:30px;
+    padding-left:30px;
+    
 }
 .footer{
+ 
    font-size: 15px;
-   
 }
 .footer-list{
+  
     border-top: 2px solid #e4e4e4;
-height:auto;
-min-height: 40px;
+
+
+
+
 
 }
 .footer-list ul{
     display: flex;
     width:100%;
+
     justify-content: space-between;
     align-items: center;
-    align-content: center;
+    
     list-style-type:none;
     padding:0;
     margin-left:0px;
-    border: solid red;
+
+
     
 }
 .footer li{
     
     display: inline-block;
    align-self: center;
-   
-   border: solid green;
-   margin-top:0;
-   padding-top: 0;
+   flex-basis:content;
+  margin-top:0;
+  
+   padding-top: 10px;
+   padding-bottom: 10px;
    min-height:0;
     }
+.footer .left li{
+margin-right:15px;
+align-items: center;
+}
+.footer .right li{
+    margin-left: 15px;
+align-items: center;
+}
+.footer .left li:first-child{
+   
+    padding-left: 30px;
+    
+}
+.footer .right li:last-child{
+    
+    padding-right: 30px;
+}
 @media only screen and (max-width: 700px){
     .footer-list ul{
         display:flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
+        
         justify-content: center;
         align-items: center;
     }
